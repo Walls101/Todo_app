@@ -1,0 +1,15 @@
+.outer{
+    background-color: pink;
+}
+
+.navbar {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.container-fluid{
+    background-color: lightcoral;
+}
