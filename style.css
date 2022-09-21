@@ -24,5 +24,17 @@
 }
 
 .container-fluid{
-    background-color: lightcoral;
+    background-color: #272727;
+}
+
+.col-3 {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-8 {
+    background-color: lime;
+    display: flex;
+    flex-direction: column;
 }
