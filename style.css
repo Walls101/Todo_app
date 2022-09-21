@@ -1,13 +1,26 @@
 .outer{
-    background-color: pink;
+    background-color: #272727;
 }
 
 .navbar {
-    background-color: aqua;
+    background-color: #373333;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #585656;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+.navbar button {
+    background-color: #373333;
+    border-color: #373333;
 }
 
 .container-fluid{
