@@ -36,6 +36,7 @@
     flex-direction: column;
     margin: 0px 0px 0px 6px;
     height: 100vh;
+    padding-top: 5px;
 }
 
 .input-group input{
@@ -59,7 +60,21 @@
 
 
 .col-8 {
-    background-color: lime;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
+    max-width: 100vw;
+}
+
+.title {
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 3.1px;
+    border-color: #9c9999;
+    width: 100%;
+}
+
+.col-8 button {
+    width: 100px;
 }
