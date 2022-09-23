@@ -27,7 +27,7 @@
             <div class="col-3">
               <!-- list of todo lists go here -->
               <div class="input-group mb-2">
-                <input type="text" id="userInput" placeholder="Enter List Name..." class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                <input type="text" id="mainInput" placeholder="Enter List Name..." class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
               </div>
 
               <div class="list-group">
@@ -42,7 +42,11 @@
               <!-- current todo list name goes here -->
               <h1 class="title">Title</h1>
               <!-- current todo list goes here -->
-              <button class="btn btn-secondary" type="button">Add</button>
+              <div class="list_list">
+                <input type="text" id="listInput" class="to-do" placeholder="New TO-DO...">
+                <button class="btn btn-secondary" type="button">Add</button>
+              </div>
+              
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                 <label class="form-check-label" for="flexCheckDefault">

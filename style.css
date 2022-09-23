@@ -75,6 +75,21 @@
     width: 100%;
 }
 
+.list_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 200px;
+}
+
+.to-do {
+    padding-right: 200px;
+}
+
 .col-8 button {
     width: 100px;
+}
+
+.form-check {
+    padding-top: 15px;
 }
