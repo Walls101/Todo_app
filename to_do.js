@@ -1,27 +1,3 @@
-// const lists = {
-//     1: {name: 'Shopping list'},
-//     2: {name: 'Honey do list'},
-//     3: {name: 'Workout steps'}
-// }
-
-// const currentList = {
-//     name: "Shopping list",
-//     todos:[
-//         {
-//             text: 'bananas',
-//             completed: false
-//         },
-//         {
-//             text: '1 lbs ground turkey',
-//             completed: false
-//         },
-//         {
-//             text: 'chicken thighs',
-//             completed: false
-//         }
-//     ]
-// }
-
 const lists = {
     1: {
         name: "Shopping list",
@@ -73,6 +49,8 @@ const lists = {
 }
 const currentList = list[0];
 
+
+
 function render(){
     //Will hold the html from the sidebar
     let listsHTML = '<ul class = "list-group">';
@@ -98,3 +76,4 @@ function render(){
     document.getElementById('current-list-todos').innerHTML = todosHtml;
 }
 
+render();
