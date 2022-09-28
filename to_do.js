@@ -47,7 +47,7 @@ const lists = {
         ]
     }//took out the comma. May need later in the future.
 }
-const currentList = list[0];
+const currentList = lists[0];
 
 
 
