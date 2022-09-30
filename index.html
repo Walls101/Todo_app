@@ -10,7 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="to_do.js"></script>
+    <script defer src="to_do.js"></script>
 </head>
 <body>
     <div class="outer">
@@ -30,15 +30,17 @@
               <div class="input-group mb-2">
                 <input type="text" id="mainInput" placeholder="Enter List Name..." class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
               </div>
+              <h3 id="lists"></h3>
             </div>
             <div class="col-8">
               <!-- current todo list name goes here -->
-              <h1 class="lists" id="lists"></h1>
+              <h1 class="current-list-name" id="current-list-name"></h1>
               <!-- current todo list goes here -->
               <div class="list_list">
                 <input type="text" id="listInput" class="to-do" placeholder="New TO-DO...">
                 <button class="btn btn-secondary" type="button">Add</button>
               </div>
+
             </div>
        
           </div>

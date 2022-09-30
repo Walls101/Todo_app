@@ -1,4 +1,4 @@
-const lists = {
+var lists = {
     1: {
         name: "Shopping list",
         todos: [
@@ -47,7 +47,7 @@ const lists = {
         ]
     }//took out the comma. May need later in the future.
 }
-const currentList = lists[0];
+var currentList = lists[Object.keys(lists)[0]];
 
 
 
@@ -55,8 +55,8 @@ function render(){
     //Will hold the html from the sidebar
     let listsHTML = '<ul class = "list-group">';
     //Iterate through the lists to get the names
-    lists.forEach((list)=> {
-        listsHTML += `<li class = "list-group-item">${list.name}</li>`;
+    Object.keys(lists).forEach((list)=> {
+        listsHTML += `<li class = "list-group-item">${lists[list].name}</li>`;
     });
 
     listsHTML += '</ul>';
