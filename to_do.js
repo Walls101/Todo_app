@@ -68,12 +68,15 @@ function render(){
     document.getElementById('current-list-name').innerText = currentList.name;
     //iterate over the todos in the current list
 
-    let todosHtml = '<ul class = "list-group-flush">';
+    let todosHtml = '<ul class = "list-group">';
     currentList.todos.forEach((list) => {
-        todosHtml += `<li class = "list-group-item">${todo.text}</li>`;
+        //THIS IS WHERE THE CHECK BOXES NEED TO BE!!!!
+        todosHtml += `<li class = "list-group-item">${list.text}</li>`;
     });
     //print out the todos
     document.getElementById('current-list-todos').innerHTML = todosHtml;
 }
+
+
 
 render();
